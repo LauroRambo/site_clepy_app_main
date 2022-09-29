@@ -50,7 +50,7 @@
       .auth()
       .signInWithEmailAndPassword(this.email, this.password)
       .then(() => {
-       this.$router.push({ name: "Home" });
+       this.$router.push({ name: "AdminPanel" });
        this.error = false;
        this.errorMsg = "";
        console.log(firebase.auth().currentUser.uid);

@@ -1,20 +1,21 @@
 <template>
   <div class="app-wrapper">
     <div class="app">
-  
+      <Navigation v-if="!navigation" />
       <router-view />
-
+      <Footer v-if="!navigation" />
     </div>
   </div>
 </template>
 
 <script>
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer"
 import firebase from "firebase/app";
 import "firebase/auth";
 export default {
   name: "app",
-  components: {
-},
+  components: { Navigation, Footer },
   data() {
     return {
       navigation: null,
@@ -35,7 +36,7 @@ export default {
   mounted() {},
   methods: {
     checkRoute() {
-      if (this.$route.name === "Login" || this.$route.name === "Register" || this.$route.name === "ForgotPassword"){
+      if (this.$route.name === "Login" || this.$route.name === "Register" || this.$route.name === "ForgotPassword" || this.$route.name === "Home"){
         this.navigation =  true;
         return;
       } 

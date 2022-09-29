@@ -59,7 +59,7 @@
 							<p style="font-size: 14px; line-height: 25px; text-align: left;"><span style="font-size: 20px; line-height: 36px;">YProbabo, inquit, sic agam, ut summum malum et, quantum possit, a sapiente delectus. At magnum periculum adiit in quo</span></p>
 						</div>
 					</div>
-					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #7273f1; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Get Started</span></span></a></div>
+					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #00aaf7; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Get Started</span></span></a></div>
 				</div>
 				<div class="bee-col bee-col-2 bee-col-w6">
 					<div class="bee-block bee-block-1 bee-divider bee-mobile_hide">
@@ -137,7 +137,7 @@
 							<p style="font-size: 14px; line-height: 21px; text-align: left;"><span style="font-size: 22px; line-height: 33px;">YProbabo, inquit, sic agam, ut summum malum et, quantum possit, a sapiente delectus. At magnum periculum adiit in quo</span></p>
 						</div>
 					</div>
-					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #7273f1; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Learn More</span></span></a></div>
+					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #00aaf7; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Learn More</span></span></a></div>
 				</div>
 				<div class="bee-col bee-col-2 bee-col-w6">
 					<div class="bee-block bee-block-1 bee-divider">
@@ -178,7 +178,7 @@
 							<p style="font-size: 14px; line-height: 21px; text-align: left;"><span style="font-size: 22px; line-height: 33px;">YProbabo, inquit, sic agam, ut summum malum et, quantum possit, a sapiente delectus. At magnum periculum adiit in quo</span></p>
 						</div>
 					</div>
-					<div class="bee-block bee-block-7 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #7273f1; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Learn More</span></span></a></div>
+					<div class="bee-block bee-block-7 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #00aaf7; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Learn More</span></span></a></div>
 				</div>
 			</div>
 		</div>
@@ -199,7 +199,7 @@
 							<p style="font-size: 14px; line-height: 21px; text-align: center;"><span style="font-size: 22px; line-height: 33px;"> a sapiente delectus. At magnum periculum adiit in quo</span></p>
 						</div>
 					</div>
-					<div class="bee-block bee-block-4 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #7273f1; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Learn More</span></span></a></div>
+					<div class="bee-block bee-block-4 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #00aaf7; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Learn More</span></span></a></div>
 					<div class="bee-block bee-block-5 bee-divider">
 						<div class="spacer" style="height:20px;"></div>
 					</div>
@@ -229,7 +229,7 @@
 							<p style="font-size: 14px; line-height: 21px; text-align: left;"><span style="font-size: 22px; line-height: 33px;">YProbabo, inquit, sic agam, ut summum malum et, quantum possit, a sapiente delectus. At magnum periculum adiit in quo</span></p>
 						</div>
 					</div>
-					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #7273f1; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Learn More</span></span></a></div>
+					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #00aaf7; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Learn More</span></span></a></div>
 				</div>
 				<div class="bee-col bee-col-2 bee-col-w6">
 					<div class="bee-block bee-block-1 bee-divider">
@@ -285,7 +285,7 @@
 							<p style="font-size: 14px; line-height: 21px; text-align: center;"><span style="font-size: 12px; line-height: 18px;">user / month</span></p>
 						</div>
 					</div>
-					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; background-color: transparent; border-bottom: 1px solid #7273F1; border-left: 1px solid #7273F1; border-radius: 40px; border-right: 1px solid #7273F1; border-top: 1px solid #7273F1; color: #7273f1; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 20px; padding-right: 20px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 16px; line-height: 200%;">Get Started</span></a></div>
+					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; background-color: transparent; border-bottom: 1px solid #00aaf7; border-left: 1px solid #00aaf7; border-radius: 40px; border-right: 1px solid #00aaf7; border-top: 1px solid #00aaf7; color: #00aaf7; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 20px; padding-right: 20px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 16px; line-height: 200%;">Get Started</span></a></div>
 				</div>
 				<div class="bee-col bee-col-2 bee-col-w4">
 					<div class="bee-block bee-block-1 bee-text">
@@ -313,7 +313,7 @@
 							<p style="font-size: 14px; line-height: 21px; text-align: center;"><span style="font-size: 12px; line-height: 18px;">user / month</span></p>
 						</div>
 					</div>
-					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-family: inherit; font-size: 16px; background-color: #7273f1; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 29px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; max-width: 100%; padding-bottom: 5px; padding-left: 20px; padding-right: 20px; padding-top: 5px; width: auto; display: inline-block;"><span style="margin: 0; word-break: break-word; font-size: 16px; line-height: 200%;">Get Started</span></a></div>
+					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-family: inherit; font-size: 16px; background-color: #00aaf7; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 29px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; max-width: 100%; padding-bottom: 5px; padding-left: 20px; padding-right: 20px; padding-top: 5px; width: auto; display: inline-block;"><span style="margin: 0; word-break: break-word; font-size: 16px; line-height: 200%;">Get Started</span></a></div>
 				</div>
 				<div class="bee-col bee-col-3 bee-col-w4">
 					<div class="bee-block bee-block-1 bee-text">
@@ -341,7 +341,7 @@
 							<p style="font-size: 14px; line-height: 21px; text-align: center;"><span style="font-size: 12px; line-height: 18px;">user / month</span></p>
 						</div>
 					</div>
-					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; background-color: transparent; border-bottom: 1px solid #7273F1; border-left: 1px solid #7273F1; border-radius: 40px; border-right: 1px solid #7273F1; border-top: 1px solid #7273F1; color: #7273f1; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 20px; padding-right: 20px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 16px; line-height: 200%;">Get Started</span></a></div>
+					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; background-color: transparent; border-bottom: 1px solid #00aaf7; border-left: 1px solid #00aaf7; border-radius: 40px; border-right: 1px solid #00aaf7; border-top: 1px solid #00aaf7; color: #00aaf7; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 20px; padding-right: 20px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 16px; line-height: 200%;">Get Started</span></a></div>
 				</div>
 			</div>
 		</div>
@@ -940,10 +940,10 @@ export default {
   }
 
   .bee-row-13 .bee-col-2 {
-    border-bottom: 4px solid #7273f1;
-    border-left: 4px solid #7273f1;
-    border-right: 4px solid #7273f1;
-    border-top: 4px solid #7273f1;
+    border-bottom: 4px solid #00aaf7;
+    border-left: 4px solid #00aaf7;
+    border-right: 4px solid #00aaf7;
+    border-top: 4px solid #00aaf7;
     padding: 5px 10px 25px 5px
   }
 
@@ -1042,7 +1042,7 @@ export default {
     .bee-row-2 .bee-col-2 .bee-block-1 .bee-hamburger-controls {
       width: 36px;
       height: 36px;
-      background-color: #7273f1;
+      background-color: #00aaf7;
       border-radius: 50%
     }
 
@@ -1062,7 +1062,7 @@ export default {
     }
 
     .bee-row-2 .bee-col-2 .bee-block-1 ul.with-bee-hamburger {
-      background-color: #7273f1
+      background-color: #00aaf7
     }
 
     .bee-row-2 .bee-col-2 .bee-block-1 ul.with-bee-hamburger li,
@@ -1135,7 +1135,7 @@ export default {
   }
 
   .bee-row-18 .bee-col-4 .bee-block-2 button {
-    background-color: #7273f1;
+    background-color: #00aaf7;
     border-bottom: 0 solid transparent;
     border-left: 0 solid transparent;
     border-radius: 4px;

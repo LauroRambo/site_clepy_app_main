@@ -4,6 +4,7 @@ import Home from "../views/Home.vue";
 import Login from "../views/Login.vue";
 import Register from "../views/Register.vue";
 import ForgotPassword from "../views/ForgotPassword.vue";
+import AdminPanel from "../views/AdminPanel.vue";
 
 Vue.use(VueRouter);
 
@@ -38,6 +39,14 @@ const routes = [
     component: ForgotPassword,
     meta: {
       title: "Forgot Password",
+    },
+  },
+  {
+    path: "/admin-panel",
+    name: "AdminPanel",
+    component: AdminPanel,
+    meta: {
+      title: "Admin Panel",
     },
   },
 ];

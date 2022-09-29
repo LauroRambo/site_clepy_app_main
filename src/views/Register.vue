@@ -82,7 +82,7 @@
         birthday: this.birthday,
         email: this.email,
        });
-       this.$router.push({ name: "Home" });
+       this.$router.push({ name: "AdminPanel" });
        return;
       }
       this.error = true;
