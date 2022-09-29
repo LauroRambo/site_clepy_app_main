@@ -21,7 +21,7 @@
 							<ul class="bee-horizontal with-bee-hamburger">
 								<li><a href="www.example.com" target="_self" title="">Home</a></li>
 								<li><a href="www.example.com" target="_self" title="">Download</a></li>
-								<li><a href="www.example.com" target="_self" title="">Features</a></li>
+								<li><router-link class="link" :to="{name: 'Login'}">Login/Cadastre-se</router-link></li>
 							</ul>
 						</nav>
 					</div>

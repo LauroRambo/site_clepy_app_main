@@ -2,7 +2,7 @@
     <header>
         <nav class="container">
             <div class="branding">
-                <router-link class="header" :to="{ name: 'Home' }">FireBlogs</router-link>
+                <router-link class="header" :to="{ name: 'Home' }">Clepy App</router-link>
             </div>
             <div class="nav-links">
                 <ul v-show="!mobile">

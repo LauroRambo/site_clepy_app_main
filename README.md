@@ -1,4 +1,4 @@
-# fireblogs
+# Clepy App
 
 ## Project setup
 ```
