@@ -1,15 +1,19 @@
 <template>
   <div class="app-wrapper">
     <div class="app">
+  
       <router-view />
+
     </div>
   </div>
 </template>
 
 <script>
+
 export default {
   name: "app",
-  components: {},
+  components: {
+},
   data() {
     return {};
   },
