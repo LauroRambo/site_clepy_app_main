@@ -32,14 +32,18 @@ export default new Vuex.Store({
       state.profileCpf = doc.data().cpf;
       state.profileBirthday = doc.data().birthday;
     },
-    changeFirstName(state, payload) {
-      state.profileFirstName = payload;
+    setProfileInitials(state) {
+      state.profileInitials = 
+        state.profileName.match(/(\b\S)?/g).join("");
     },
-    changeLastName(state, payload) {
-      state.profileLastName = payload;
+    changeName(state, payload) {
+      state.profileName = payload;
     },
-    changeUsername(state, payload) {
-      state.profileUsername = payload;
+    changeCpf(state, payload) {
+      state.profileCpf = payload;
+    },
+    changeBirthday(state, payload) {
+      state.profileBirthday = payload;
     },
   },
   actions: {
@@ -47,7 +51,7 @@ export default new Vuex.Store({
       const database = await db.collection('users').doc(firebase.auth().currentUser.uid);
       const dbResults = await database.get();
       commit("setProfileInfo", dbResults);
-      //commit("setProfileInitials");
+      commit("setProfileInitials");
       const token = await user.getIdTokenResult();
       const admin = await token.claims.admin;
       commit('setProfileAdmin', admin);
@@ -56,9 +60,9 @@ export default new Vuex.Store({
     async updateUserSettings ({ commit, state}) {
       const dataBase = await db.collection("users").doc(state.profileId);
       await dataBase.update({
-        firstName: state.profileFirstName,
-        lastName: state.profileLastName,
-        username: state.profileUsername,
+        name: state.profileName,
+        cpf: state.profileCpf,
+        birthday: state.profileBirthday,
       });
       commit("setProfileInitials");
     }
