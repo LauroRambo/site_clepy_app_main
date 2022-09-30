@@ -7,6 +7,7 @@ import ForgotPassword from "../views/ForgotPassword.vue";
 import AdminPanel from "../views/AdminPanel.vue";
 import Profile from "../views/Profile.vue";
 import SetAdmin from "../views/SetAdmin.vue";
+import RegisterProduct from "../views/RegisterProduct.vue";
 
 Vue.use(VueRouter);
 
@@ -65,6 +66,14 @@ const routes = [
     component: SetAdmin,
     meta: {
       title: 'Set Admin',
+    }
+  },
+  {
+    path: "/register-product",
+    name: "RegisterProduct",
+    component: RegisterProduct,
+    meta: {
+      title: 'Register Product',
     }
   },
 ];

@@ -8,6 +8,10 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    productName: "",
+    productModel: "",
+    productDescription: "",
+    productValue: null,
     user: null,
     profileAdmin: null,
     profileEmail: null,
@@ -18,6 +22,9 @@ export default new Vuex.Store({
     profileInitials: null,
   },
   mutations: {
+    updateProductName(state, payload) {
+      state.productName = payload;
+    },
     updateUser(state, payload){
       state.user = payload
     },
