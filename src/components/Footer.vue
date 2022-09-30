@@ -3,7 +3,7 @@
      <div class="container">
       <div class="left">
        <div class="col-1">
-        <router-link class="header" :to="{ name: 'home' }">Clepy App</router-link>
+        <router-link class="header" :to="{ name: 'Home' }">Clepy App</router-link>
         <ul>
          <li>
           <a href="#"><youtube class="svg-icon"></youtube></a>
@@ -22,8 +22,7 @@
        <div class="col-2">
         <ul>
          <router-link class="link" :to="{ name: 'Home' }">Home</router-link>
-         <router-link class="link" :to="{ name: 'Blogs' }">Blogs</router-link>
-         <router-link v-if="admin" class="link" :to="{name: 'CreatePost'}">Create Post</router-link>
+         <router-link class="link" :to="{ name: 'RegisterProduct' }">Cadastrar Produto</router-link>
          <router-link v-if="!user" class="link" :to="{ name: 'Login' }">Login In / Register</router-link>
         </ul>
        </div>
