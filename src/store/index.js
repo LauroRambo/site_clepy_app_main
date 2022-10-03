@@ -20,6 +20,7 @@ export default new Vuex.Store({
     profileBirthday: null,
     profileId: null,
     profileInitials: null,
+    
   },
   mutations: {
     updateProductName(state, payload) {
