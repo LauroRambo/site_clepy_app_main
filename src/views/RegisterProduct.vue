@@ -25,7 +25,7 @@
         <input type="number" id="productValue" v-model="productValue" />
        </div>
        <div class="upload-file">
-        <label for="productPhoto">Foto do Produto:</label>
+        <label for="productPhoto">Imagens do Produto:</label>
         <input type="file" ref="product-Photo" id="productPhoto" accept=".png, .jpg, .jpeg"/>
        </div>
        
@@ -38,9 +38,9 @@
    <script>
    import Modal from "../components/Modal";
    import Loading from "../components/Loading.vue";
-   import firebase from "firebase/app";
+   //import firebase from "firebase/app";
    import "firebase/storage";
-   import db from "../firebase/firebaseInit";
+   //import db from "../firebase/firebaseInit";
    export default {
         name: "RegisterProduct",
         components: {
