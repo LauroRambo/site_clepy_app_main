@@ -3,9 +3,6 @@
   <Modal v-if="modalActive" :modalMessage="modalMessage" v-on:close-modal="closeModal" />
   <Loading v-show="loading"/>
   <div class="container">
-   <div :class="{invisible: !error}" class="err-message">
-         <p><span>Error:</span>{{this.errorMsg}}</p>
-   </div>
    <h2>Cadastrar Produto</h2>
    <div class="product-info">
     <div class="input">
@@ -63,15 +60,16 @@ export default {
         fileChange(){
             this.file = this.$refs.productPhoto.files[0];
             const fileName = this.file.name;
-            this.$storecommit("fileNameChange", fileName);
-            this.$storecommit("createFileURL", URL.createObjectURL(this.file));
+            this.$store.commit("fileNameChange", fileName);
+            this.$store.commit("createFileURL", URL.createObjectURL(this.file));
         },
 
         createProduct() {
             if (this.productName.lenght !== 0 && this.productDescription.lenght !== 0)  {
                 if (this.file){
+                    this.loading = true;
                     const storageRef = firebase.storage().ref();
-                    const docRef = storageRef.child(`documents/ProductsPhotos/${this.$store.state.fileName}`);
+                    const docRef = storageRef.child(`documents/ProductsPhotos/${this.$store.state.productPhotoName}`);
                     docRef.put(this.file).on("state_changed", (snapshot) => {
                         console.log(snapshot);
                     }, (err) =>{
@@ -87,14 +85,16 @@ export default {
                             productModel: this.productModel,
                             productDescription: this.productDescription,
                             productValue: this.productValue,
-                            productPhotoName: this.fileName,
+                            productPhotoName: this.productPhotoName,
                             productPhoto:
                             downloadURL,
                             profileId: this.profileId,
                             date: timestamp,
                         });
+                        this.$router.push({ name: "AdminPanel"})
                     }
                     );
+                    return;
                 }
                 this.error = true;
                 this.errorMsg = "Insira a foto do produto!";

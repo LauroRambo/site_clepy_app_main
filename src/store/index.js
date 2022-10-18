@@ -8,6 +8,8 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    productsBase: [],
+    productsLoaded: null,
     productName: "",
     productModel: "",
     productDescription: "",
@@ -23,6 +25,11 @@ export default new Vuex.Store({
     profileId: null,
     profileInitials: null,
     
+  },
+  getters: {
+    productsBaseCards(state) {
+      return state.productsBase.slice(0,6);
+    },
   },
   mutations: {
     updateProductName(state, payload) {
@@ -90,7 +97,27 @@ export default new Vuex.Store({
         birthday: state.profileBirthday,
       });
       commit("setProfileInitials");
-    }
+    },
+    async getProducts({ state }) {
+      const dataBase = await db.collection('products').orderBy('date', 'desc'); 
+      const dbResults = await dataBase.get();
+      
+      dbResults.forEach((doc) => {
+        if (!state.productsBase.some(product => product.productId === doc.id)){
+          const data = {
+            productId: doc.data().productId,
+            productDescription: doc.data().productDescription,
+            productPhoto: doc.data().productPhoto,
+            productName: doc.data().productName,
+            productValue: doc.data().productValue,
+            profileId: doc.data().profileId,
+          };
+          state.productsBase.push(data);
+        }
+      });
+      state.productsLoaded = true;
+      console.log(state.productsBase);
+    }, 
   },
   modules: {
   }
