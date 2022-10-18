@@ -11,6 +11,8 @@ export default new Vuex.Store({
     productName: "",
     productModel: "",
     productDescription: "",
+    productPhotoName: "",
+    productPhotoFileURL: null,
     productValue: null,
     user: null,
     profileAdmin: null,
@@ -25,6 +27,15 @@ export default new Vuex.Store({
   mutations: {
     updateProductName(state, payload) {
       state.productName = payload;
+    },
+    updateProductDescription(state, payload) {
+      state.productDescription = payload;
+    },
+    updateProductModel(state, payload) {
+      state.productModel = payload;
+    },
+    updateProductValue(state, payload) {
+      state.productValue = payload;
     },
     updateUser(state, payload){
       state.user = payload
@@ -53,6 +64,12 @@ export default new Vuex.Store({
     changeBirthday(state, payload) {
       state.profileBirthday = payload;
     },
+    fileNameChange(state, payload) {
+      state.productPhotoName = payload;
+    },
+    createFileURL(state, payload) {
+      state.productPhotoFileURL = payload;
+    }
   },
   actions: {
     async getCurrentUser({commit}, user) {
