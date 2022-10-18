@@ -8,6 +8,7 @@ import AdminPanel from "../views/AdminPanel.vue";
 import Profile from "../views/Profile.vue";
 import SetAdmin from "../views/SetAdmin.vue";
 import RegisterProduct from "../views/RegisterProduct.vue";
+import EditProduct from "../views/EditProduct.vue";
 
 Vue.use(VueRouter);
 
@@ -74,6 +75,14 @@ const routes = [
     component: RegisterProduct,
     meta: {
       title: 'Register Product',
+    }
+  },
+  {
+    path: "/edit-product",
+    name: "EditProduct",
+    component: EditProduct,
+    meta: {
+      title: 'EditProduct',
     }
   },
 ];

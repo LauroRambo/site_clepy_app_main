@@ -1,7 +1,7 @@
 <template>
     <div class="product-card">
-        <div v-show="editProduct" class="icons">
-            <div @click="editproduct" class="icon">
+        <div class="icons">
+            <div @click="editProduct" class="icon">
             <Edit class="edit" />
             </div>
             <div @click="deleteProduct" class="icon">
@@ -33,14 +33,14 @@ components: {
 },
 methods: {
     deleteProduct() {
-    this.$store.dispatch("deleteProduct", this.product.productID);
+    this.$store.dispatch("deleteProduct", this.product.productId);
     },
-    editproduct() {
-    this.$router.push({ name: 'Editproduct', params: { productid: this.product.productID } });
+    editProduct() {
+    this.$router.push({ name: 'EditProduct', params: { productId: this.product.productId } });
     },
 },
 computed: {
-    editProduct() {
+    editProducts() {
     return this.$store.state.editProduct;
     }
 }

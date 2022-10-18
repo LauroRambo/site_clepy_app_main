@@ -27,7 +27,7 @@
      <span>arquivo: {{this.$store.state.productPhotoName}}</span>
     </div>
     
-    <button @click="createProduct">Cadastrar</button>
+    <button @click="updateProduct">Editar</button>
    </div>
   </div>
  </div>
@@ -40,7 +40,7 @@ import firebase from "firebase/app";
 import "firebase/storage";
 import db from "../firebase/firebaseInit";
 export default {
-    name: "RegisterProduct",
+    name: "EditProduct",
     components: {
         Modal,
         Loading,
@@ -53,7 +53,17 @@ export default {
             error: null,
             errorMsg: null,
             loading: null,
+            routeID: null,
+            currentProduct: null,
         }
+    },
+
+    async mounted() {
+        this.routeID = this.$route.params.productId;
+        this.currentProduct = await this.$store.state.productsBase.filter(product => {
+            return product.productId === this.routeID;
+        });
+        this.$store.commit('setProductState', this.currentProduct[0])
     },
     methods: {
 
@@ -64,7 +74,8 @@ export default {
             this.$store.commit("createFileURL", URL.createObjectURL(this.file));
         },
 
-        createProduct() {
+        async updateProduct() {
+            const dataBase = db.collection('products').doc(this.routeID);
             if (this.productName.lenght !== 0 && this.productDescription.lenght !== 0)  {
                 if (this.file){
                     this.loading = true;
@@ -76,33 +87,32 @@ export default {
                         console.log(err);
                     }, async () => {
                         const downloadURL = await docRef.getDownloadURL();
-                        const timestamp = await Date.now();
-                        const dataBase = await db.collection("products").doc();
 
-                        await dataBase.set({
-                            productId: dataBase.id,
+                        await dataBase.update({
                             productName: this.productName,
                             productModel: this.productModel,
                             productDescription: this.productDescription,
                             productValue: this.productValue,
                             productPhotoName: this.productPhotoName,
-                            productPhoto:
-                            downloadURL,
-                            profileId: this.profileId,
-                            date: timestamp,
+                            productPhoto:  downloadURL,
                         });
-                        await this.$store.dispatch("getProducts");
+                        await this.$store.dispatch("updateProduct", this.routeID);
                         this.loading = false;
-                        this.$router.push({ name: "AdminPanel"})
+                        this.$router.push({ name: "AdminPanel"});
                     }
                     );
                     return;
                 }
-                this.error = true;
-                this.errorMsg = "Insira a foto do produto!";
-                setTimeout(() => {
-                    this.error = false;
-                }, 5000);
+                this.Loading = true;
+                await dataBase.update({
+                    produproductName: this.productName,
+                    productModel: this.productModel,
+                    productDescription: this.productDescription,
+                    productValue: this.productValue,
+                });
+                await this.$store.dispatch('updateProduct', this.routeID);
+                this.loading = false;
+                this.$router.push({name: "AdminPanel"});
                 return;
             }
             this.error =  true;

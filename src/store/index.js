@@ -68,6 +68,9 @@ export default new Vuex.Store({
     changeCpf(state, payload) {
       state.profileCpf = payload;
     },
+    filterProducts(state, payload) {
+      state.productsBase = state.productsBase.filter((product) => product.productId !== payload);
+    },
     changeBirthday(state, payload) {
       state.profileBirthday = payload;
     },
@@ -76,6 +79,17 @@ export default new Vuex.Store({
     },
     createFileURL(state, payload) {
       state.productPhotoFileURL = payload;
+    },
+    toggleEditProduct(state, payload){
+      state.editProduct = payload;
+    },
+    setProductState(state, payload) {
+      state.productName = payload.productName;
+      state.productModel = payload.productModel;
+      state.productDescription = payload.productDescription;
+      state.productValue = payload.productValue;
+      state.productPhotoFileURL = payload.productPhoto;
+      state.productPhotoName = payload.productPhotoName;
     }
   },
   actions: {
@@ -110,14 +124,26 @@ export default new Vuex.Store({
             productPhoto: doc.data().productPhoto,
             productName: doc.data().productName,
             productValue: doc.data().productValue,
+            productModel: doc.data().productModel,
             profileId: doc.data().profileId,
+            productPhotoName: doc.data().productPhotoName,
           };
           state.productsBase.push(data);
         }
       });
       state.productsLoaded = true;
       console.log(state.productsBase);
+      
     }, 
+    async deleteProduct({commit}, payload) {
+      const getProduct = await db.collection("products").doc(payload);
+      await getProduct.delete();
+      commit("filterProducts", payload);
+    },
+    async updateProduct({commit, dispatch}, payload){
+      commit ("filterProducts", payload);
+      await dispatch("getProducts");
+    }
   },
   modules: {
   }

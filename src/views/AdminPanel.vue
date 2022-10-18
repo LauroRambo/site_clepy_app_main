@@ -1,10 +1,6 @@
 <template>
     <div class="product-card-wrap">
         <div class="product-cards container">
-            <div class="toggle-edit">
-                <span>Toggle Editing Product</span>
-                <input type="checkbox">
-            </div>
             <ProductsCard :product="product" v-for="(product, index) in productsCards" :key="index" />
         </div>
     </div>
@@ -21,9 +17,21 @@ export default {
         },
         user() {
             return this.$store.state.user;
-        }
-    }  
-}
+        },
+
+        editProduct: {
+        get() {
+            return this.$store.state.editProduct
+        },
+        set(payload){
+            this.$store.commit("toggleEditProduct", payload);
+        },
+    }
+    },  
+    beforeDestroy(){
+        this.$store.commit("toggleEditProduct", false);
+    }
+};
 </script>
 
 <style lang="scss" scoped>
