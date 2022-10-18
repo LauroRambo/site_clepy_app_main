@@ -11,9 +11,10 @@
         <img :src="product.productPhoto" alt="">
         <div class="info">
             <h4>{{ product.productName }}</h4>
+            <h6>{{product.productModel}}</h6>
             <h6>R$ {{product.productValue}}</h6>
             <h6>{{product.productDescription}}</h6>
-            <router-link class="link" :to="{ name: 'ViewProduct', params: {productid: this.product.productID } }">View the Product<Arrow class="arrow" />
+            <router-link class="link"  @click="editProduct">Edit the Product<Arrow class="arrow" />
       </router-link>
         </div>
     </div>

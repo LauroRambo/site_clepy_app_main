@@ -3,7 +3,7 @@
   <Modal v-if="modalActive" :modalMessage="modalMessage" v-on:close-modal="closeModal" />
   <Loading v-show="loading"/>
   <div class="container">
-   <h2>Cadastrar Produto</h2>
+   <h2>Editar Produto</h2>
    <div class="product-info">
     <div class="input">
      <label for="productName">Nome do produto:</label>

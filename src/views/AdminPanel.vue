@@ -1,5 +1,6 @@
 <template>
     <div class="product-card-wrap">
+        
         <div class="product-cards container">
             <ProductsCard :product="product" v-for="(product, index) in productsCards" :key="index" />
         </div>
