@@ -9,6 +9,8 @@ import Profile from "../views/Profile.vue";
 import SetAdmin from "../views/SetAdmin.vue";
 import RegisterProduct from "../views/RegisterProduct.vue";
 import EditProduct from "../views/EditProduct.vue";
+import firebase from "firebase/app";
+import "firebase/auth";
 
 Vue.use(VueRouter);
 
@@ -19,6 +21,7 @@ const routes = [
     component: Home,
     meta: {
       title: "Home",
+      requiresAuth: false,
     },
   },
   {
@@ -27,6 +30,7 @@ const routes = [
     component: Login,
     meta: {
       title: "Login",
+      requiresAuth: false,
     },
   },
   {
@@ -35,6 +39,7 @@ const routes = [
     component: Register,
     meta: {
       title: "Register",
+      requiresAuth: false,
     },
   },
   {
@@ -43,6 +48,7 @@ const routes = [
     component: ForgotPassword,
     meta: {
       title: "Forgot Password",
+      requiresAuth: false,
     },
   },
   {
@@ -51,6 +57,7 @@ const routes = [
     component: AdminPanel,
     meta: {
       title: "Admin Panel",
+      requiresAuth: true,
     },
   },
   {
@@ -59,6 +66,7 @@ const routes = [
     component: Profile,
     meta: {
       title: "Profile",
+      requiresAuth: true,
     },
   },
   {
@@ -67,6 +75,8 @@ const routes = [
     component: SetAdmin,
     meta: {
       title: 'Set Admin',
+      requiresAuth: true,
+      requiresAdmin: true,
     }
   },
   {
@@ -75,6 +85,7 @@ const routes = [
     component: RegisterProduct,
     meta: {
       title: 'Register Product',
+      requiresAuth: true,
     }
   },
   {
@@ -83,6 +94,7 @@ const routes = [
     component: EditProduct,
     meta: {
       title: 'EditProduct',
+      requiresAuth: true,
     }
   },
 ];
@@ -91,6 +103,28 @@ const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
   routes,
+});
+
+router.beforeEach(async (to, from, next) =>{
+  let user = firebase.auth().currentUser;
+  let admin = null;
+  if (user) {
+    let token = await user.getIdTokenResult();
+    admin = token.claims.admin;
+  }
+  if (to.matched.some((res) => res.meta.requiresAuth)){
+    if (user) {
+      if (to.matched.some((res) => res.meta.requiresAdmin)){
+        if (admin) {
+          return next();
+        }
+        return next({name: "Home"});
+      }
+      return next();
+    } 
+    return next({name: "Home"});
+  } 
+  return next();
 });
 
 export default router;

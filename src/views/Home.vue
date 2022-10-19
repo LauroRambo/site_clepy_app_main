@@ -21,7 +21,8 @@
 							<ul class="bee-horizontal with-bee-hamburger">
 								<li><a href="www.example.com" target="_self" title="">Home</a></li>
 								<li><a href="www.example.com" target="_self" title="">Download</a></li>
-								<li><router-link class="link" :to="{name: 'Login'}">Login/Cadastre-se</router-link></li>
+                <li><router-link  v-if="user" class="link" :to="{name: 'AdminPanel'}">Painel</router-link></li>
+								<li><router-link  v-if="!user" class="link" :to="{name: 'Login'}">Login/Cadastre-se</router-link></li>
 							</ul>
 						</nav>
 					</div>
@@ -496,6 +497,14 @@
 export default {
   name: "Home",
   components: {},
+  computed: {
+        user() {
+            return this.$store.state.user;
+        },
+        admin() {
+            return this.$store.state.profileAdmin;
+        }
+  }
 };
 </script>
 
