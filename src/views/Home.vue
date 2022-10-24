@@ -52,15 +52,15 @@
 					</div>
 					<div class="bee-block bee-block-4 bee-text">
 						<div class="bee-text-content" style="line-height: 120%; font-size: 12px; color: #34495e; font-family: inherit;">
-							<p style="font-size: 14px; line-height: 16px;"><span style="font-size: 46px; line-height: 55px;"><strong style="">The new Maxi has arrived!</strong></span></p>
+							<p style="font-size: 14px; line-height: 16px;"><span style="font-size: 46px; line-height: 55px;"><strong style="">Alugue o que quiser com um único clique!</strong></span></p>
 						</div>
 					</div>
 					<div class="bee-block bee-block-5 bee-text">
 						<div class="bee-text-content" style="line-height: 180%; font-size: 12px; font-family: inherit; color: #a0a0a0;">
-							<p style="font-size: 14px; line-height: 25px; text-align: left;"><span style="font-size: 20px; line-height: 36px;">YProbabo, inquit, sic agam, ut summum malum et, quantum possit, a sapiente delectus. At magnum periculum adiit in quo</span></p>
+							<p style="font-size: 14px; line-height: 25px; text-align: left;"><span style="font-size: 20px; line-height: 36px;">Tudo que você precisa ao alcance da mão em um aplicativo de intuitivo e de fácil acesso</span></p>
 						</div>
 					</div>
-					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #00aaf7; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Get Started</span></span></a></div>
+					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #00aaf7; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Confira</span></span></a></div>
 				</div>
 				<div class="bee-col bee-col-2 bee-col-w6">
 					<div class="bee-block bee-block-1 bee-divider bee-mobile_hide">
@@ -130,31 +130,31 @@
 					</div>
 					<div class="bee-block bee-block-4 bee-text">
 						<div class="bee-text-content" style="line-height: 120%; font-size: 12px; color: #34495e; font-family: inherit;">
-							<p style="font-size: 14px; line-height: 16px;"><span style="font-size: 30px; line-height: 36px;"><strong style="">Followers Tracking</strong></span></p>
+							<p style="font-size: 14px; line-height: 16px;"><span style="font-size: 30px; line-height: 36px;"><strong style="">Economize</strong></span></p>
 						</div>
 					</div>
 					<div class="bee-block bee-block-5 bee-text">
 						<div class="bee-text-content" style="line-height: 150%; font-size: 12px; font-family: inherit; color: #a0a0a0;">
-							<p style="font-size: 14px; line-height: 21px; text-align: left;"><span style="font-size: 22px; line-height: 33px;">YProbabo, inquit, sic agam, ut summum malum et, quantum possit, a sapiente delectus. At magnum periculum adiit in quo</span></p>
+							<p style="font-size: 14px; line-height: 21px; text-align: left;"><span style="font-size: 22px; line-height: 33px;">Não é mais necessário comprar um produto e utilizá-lo só de vez em quando. Alugue quando precisar, use até cansar e devolva quando terminar!</span></p>
 						</div>
 					</div>
-					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #00aaf7; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Learn More</span></span></a></div>
+					<!--<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #00aaf7; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Learn More</span></span></a></div>-->
 				</div>
 				<div class="bee-col bee-col-2 bee-col-w6">
 					<div class="bee-block bee-block-1 bee-divider">
 						<div class="spacer" style="height:15px;"></div>
 					</div>
-					<div class="bee-block bee-block-2 bee-image"><img alt="Following  a user " class="bee-center bee-fixedwidth bee-fullwidthOnMobile" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/2441/Right_Image_1.png" style="max-width:432px;" /></div>
+					<div class="bee-block bee-block-2 bee-image"><img alt="Following  a user " class="bee-center bee-fixedwidth bee-fullwidthOnMobile" src="@/assets/11.png" style="max-width:432px;" /></div>
 				</div>
 			</div>
 		</div>
 		<div class="bee-row bee-row-9">
-			<div class="bee-row-content">
+			<div class="bee-row-content reverse">
 				<div class="bee-col bee-col-1 bee-col-w6">
 					<div class="bee-block bee-block-1 bee-divider">
 						<div class="spacer" style="height:15px;"></div>
 					</div>
-					<div class="bee-block bee-block-2 bee-image"><img alt="App showing group" class="bee-center bee-fixedwidth" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/2441/Image_left_2_1.png" style="max-width:468px;" /></div>
+					<div class="bee-block bee-block-2 bee-image"><img alt="App showing group" class="bee-center bee-fixedwidth" src="@/assets/18.png" style="max-width:468px;" /></div>
 				</div>
 				<div class="bee-col bee-col-2 bee-col-w6">
 					<div class="bee-block bee-block-1 bee-divider">
@@ -171,15 +171,47 @@
 					</div>
 					<div class="bee-block bee-block-5 bee-text">
 						<div class="bee-text-content" style="line-height: 120%; font-size: 12px; color: #34495e; font-family: inherit;">
-							<p style="font-size: 14px; line-height: 16px;"><span style="font-size: 30px; line-height: 36px;"><strong style="">Read and learn</strong></span></p>
+							<p style="font-size: 14px; line-height: 16px;"><span style="font-size: 30px; line-height: 36px;"><strong style="">Faça renda com o que está parado em casa</strong></span></p>
 						</div>
 					</div>
 					<div class="bee-block bee-block-6 bee-text">
 						<div class="bee-text-content" style="line-height: 150%; font-size: 12px; font-family: inherit; color: #a0a0a0;">
-							<p style="font-size: 14px; line-height: 21px; text-align: left;"><span style="font-size: 22px; line-height: 33px;">YProbabo, inquit, sic agam, ut summum malum et, quantum possit, a sapiente delectus. At magnum periculum adiit in quo</span></p>
+							<p style="font-size: 14px; line-height: 21px; text-align: left;"><span style="font-size: 22px; line-height: 33px;">Um produto que está ocupando espaço na sua casa pode ser exatamente o que alguém está procurando. Disponibilize qualquer coisa para aluguel e faça uma renda extra sem esforço</span></p>
 						</div>
 					</div>
-					<div class="bee-block bee-block-7 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #00aaf7; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Learn More</span></span></a></div>
+					<!--<div class="bee-block bee-block-7 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #00aaf7; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Learn More</span></span></a></div>-->
+				</div>
+			</div>
+		</div>
+    <div class="bee-row bee-row-8">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-divider bee-mobile_hide">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+					<div class="bee-block bee-block-3 bee-divider bee-mobile_hide">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+					<div class="bee-block bee-block-4 bee-text">
+						<div class="bee-text-content" style="line-height: 120%; font-size: 12px; color: #34495e; font-family: inherit;">
+							<p style="font-size: 14px; line-height: 16px;"><span style="font-size: 30px; line-height: 36px;"><strong style="">Sustentabilidade</strong></span></p>
+						</div>
+					</div>
+					<div class="bee-block bee-block-5 bee-text">
+						<div class="bee-text-content" style="line-height: 150%; font-size: 12px; font-family: inherit; color: #a0a0a0;">
+							<p style="font-size: 14px; line-height: 21px; text-align: left;"><span style="font-size: 22px; line-height: 33px;">Evite descartes desnecessários pelo desgaste que o tempo provoca e pela falta de uso de algum produto. Contribua para a diminuição do consumo e do acúmulo ao alugar e disponibilizar para aluguel, suprindo suas necessidades, as do outro e ajudando o planeta!</span></p>
+						</div>
+					</div>
+					<!--<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #00aaf7; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Learn More</span></span></a></div>-->
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="spacer" style="height:15px;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-image"><img alt="Following  a user " class="bee-center bee-fixedwidth bee-fullwidthOnMobile" src="@/assets/29.png" style="max-width:432px;" /></div>
 				</div>
 			</div>
 		</div>
@@ -191,20 +223,20 @@
 					</div>
 					<div class="bee-block bee-block-2 bee-text">
 						<div class="bee-text-content" style="line-height: 120%; font-size: 12px; color: #34495e; font-family: inherit;">
-							<p style="font-size: 14px; line-height: 16px; text-align: center;"><span style="font-size: 30px; line-height: 36px;"><strong style="">Keep your budget under control</strong></span></p>
+							<p style="font-size: 14px; line-height: 16px; text-align: center;"><span style="font-size: 30px; line-height: 36px;"><strong style="">Tenha a experiência de dar um Clepy!</strong></span></p>
 						</div>
 					</div>
 					<div class="bee-block bee-block-3 bee-text">
 						<div class="bee-text-content" style="line-height: 150%; font-size: 12px; font-family: inherit; color: #a0a0a0;">
-							<p style="font-size: 14px; line-height: 21px; text-align: center;"><span style="font-size: 22px; line-height: 33px;">YProbabo, inquit, sic agam, ut summum malum et, quantum possit,</span></p>
-							<p style="font-size: 14px; line-height: 21px; text-align: center;"><span style="font-size: 22px; line-height: 33px;"> a sapiente delectus. At magnum periculum adiit in quo</span></p>
+							<p style="font-size: 14px; line-height: 21px; text-align: center;"><span style="font-size: 22px; line-height: 33px;">Tenha facilidade, lucro e sustentabilidade de uma vez só em um aplicativo único</span></p>
+							<p style="font-size: 14px; line-height: 21px; text-align: center;"><span style="font-size: 22px; line-height: 33px;">e inovador que veio para atender às suas necessidades de forma inédita</span></p>
 						</div>
 					</div>
-					<div class="bee-block bee-block-4 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #00aaf7; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Learn More</span></span></a></div>
+					<div class="bee-block bee-block-4 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #00aaf7; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Confira</span></span></a></div>
 					<div class="bee-block bee-block-5 bee-divider">
 						<div class="spacer" style="height:20px;"></div>
 					</div>
-					<div class="bee-block bee-block-6 bee-image"><img alt="Sending Gift by phone" class="bee-center bee-fixedwidth" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/2441/middle_image_3.png" style="max-width:504px;" /></div>
+					<div class="bee-block bee-block-6 bee-image"><img alt="Sending Gift by phone" class="bee-center bee-fixedwidth" src="@/assets/24.png"  style="max-width:504px;" /></div>
 				</div>
 			</div>
 		</div>
@@ -222,25 +254,25 @@
 					</div>
 					<div class="bee-block bee-block-4 bee-text">
 						<div class="bee-text-content" style="line-height: 120%; font-size: 12px; color: #34495e; font-family: inherit;">
-							<p style="font-size: 14px; line-height: 16px;"><span style="font-size: 30px; line-height: 36px;"><strong style="">Organize your calendar</strong></span></p>
+							<p style="font-size: 14px; line-height: 16px;"><span style="font-size: 30px; line-height: 36px;"><strong style="">A Clepy nasceu de uma necessidade: poder usar o produto necessário apenas quando precisar e sem a obrigação de comprar.</strong></span></p>
 						</div>
 					</div>
 					<div class="bee-block bee-block-5 bee-text">
 						<div class="bee-text-content" style="line-height: 150%; font-size: 12px; font-family: inherit; color: #a0a0a0;">
-							<p style="font-size: 14px; line-height: 21px; text-align: left;"><span style="font-size: 22px; line-height: 33px;">YProbabo, inquit, sic agam, ut summum malum et, quantum possit, a sapiente delectus. At magnum periculum adiit in quo</span></p>
+							<p style="font-size: 14px; line-height: 21px; text-align: left;"><span style="font-size: 22px; line-height: 33px;">Aqui você consegue alugar qualquer coisa (qualquer coisa mesmo!) com segurança e praticidade na hora que quiser e devolver assim que terminar de usar. Economia e sustentabilidade em um único lugar!</span></p>
 						</div>
 					</div>
-					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #00aaf7; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Learn More</span></span></a></div>
+					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 15px; background-color: #00aaf7; border-bottom: 0px solid transparent; border-left: 0px solid transparent; border-radius: 40px; border-right: 0px solid transparent; border-top: 0px solid transparent; color: #ffffff; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 25px; padding-right: 25px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 15px; line-height: 200%;"><span style="font-size: 15px;">Conheça</span></span></a></div>
 				</div>
 				<div class="bee-col bee-col-2 bee-col-w6">
 					<div class="bee-block bee-block-1 bee-divider">
 						<div class="spacer" style="height:15px;"></div>
 					</div>
-					<div class="bee-block bee-block-2 bee-image"><img alt="App showing the feature" class="bee-center bee-fixedwidth" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/2441/Right_Image_4.png" style="max-width:432px;" /></div>
+					<div class="bee-block bee-block-2 bee-image"><img alt="App showing the feature" class="bee-center bee-fixedwidth" src="@/assets/27 (1).png" style="max-width:432px;" /></div>
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-12">
+		<!--<div class="bee-row bee-row-12">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w12">
 					<div class="bee-block bee-block-1 bee-divider">
@@ -345,7 +377,7 @@
 					<div class="bee-block bee-block-6 bee-button"><a class="bee-button-content" href="www.example.com" style="font-size: 16px; background-color: transparent; border-bottom: 1px solid #00aaf7; border-left: 1px solid #00aaf7; border-radius: 40px; border-right: 1px solid #00aaf7; border-top: 1px solid #00aaf7; color: #00aaf7; direction: ltr; font-family: inherit; max-width: 100%; padding-bottom: 5px; padding-left: 20px; padding-right: 20px; padding-top: 5px; width: auto; display: inline-block;"><span style="word-break: break-word; font-size: 16px; line-height: 200%;">Get Started</span></a></div>
 				</div>
 			</div>
-		</div>
+		</div>-->
 		<div class="bee-row bee-row-14">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w12">
@@ -354,8 +386,8 @@
 					</div>
 					<div class="bee-block bee-block-2 bee-text">
 						<div class="bee-text-content" style="line-height: 120%; font-size: 12px; color: #34495e; font-family: inherit;">
-							<p style="font-size: 14px; line-height: 16px; text-align: center;"><span style="font-size: 20px; line-height: 24px;"><strong style="">Meet with like-minded people. </strong></span></p>
-							<p style="font-size: 14px; line-height: 16px; text-align: center;"><span style="font-size: 20px; line-height: 24px;"><strong style="">Make new friends. Share moments that matter</strong></span></p>
+							<p style="font-size: 14px; line-height: 16px; text-align: center;"><span style="font-size: 20px; line-height: 24px;"><strong style="">Seja bem vindo(a) ao mundo Clepy! Uma infinidade de possibilidades para facilitar a sua vida!</strong></span></p>
+							<!--<p style="font-size: 14px; line-height: 16px; text-align: center;"><span style="font-size: 20px; line-height: 24px;"><strong style="">Make new friends. Share moments that matter</strong></span></p>-->
 						</div>
 					</div>
 					<div class="bee-block bee-block-3 bee-divider">
@@ -433,31 +465,31 @@
 							<p style="font-size: 16px; line-height: 19px; text-align: left;"><strong style="">Links</strong></p>
 						</div>
 					</div>
-					<div class="bee-block bee-block-2 bee-text">
+					<!--<div class="bee-block bee-block-2 bee-text">
 						<div class="bee-text-content" style="line-height: 180%; font-size: 12px; font-family: inherit; color: #656565;">
 							<p style="font-size: 14px; line-height: 25px; text-align: left;"><span style="font-size: 15px; line-height: 27px;"><a href="http://www.example.com" rel="noopener" style="text-decoration: none; color: #656565;" target="_blank">About Us</a></span></p>
 						</div>
-					</div>
-					<div class="bee-block bee-block-3 bee-text">
+					</div>-->
+					<!--<div class="bee-block bee-block-3 bee-text">
 						<div class="bee-text-content" style="line-height: 180%; font-size: 12px; font-family: inherit; color: #656565;">
 							<p style="font-size: 14px; line-height: 25px; text-align: left;"><span style="font-size: 15px; line-height: 27px;"><a href="http://www.example.com" rel="noopener" style="text-decoration: none; color: #656565;" target="_blank">Blog</a></span></p>
 						</div>
-					</div>
+					</div>-->
 					<div class="bee-block bee-block-4 bee-text">
 						<div class="bee-text-content" style="line-height: 180%; font-size: 12px; font-family: inherit; color: #656565;">
 							<p style="font-size: 14px; line-height: 25px; text-align: left;"><span style="font-size: 15px; line-height: 27px;"><a href="http://www.example.com" rel="noopener" style="text-decoration: none; color: #656565;" target="_blank">Contact</a></span></p>
 						</div>
 					</div>
-					<div class="bee-block bee-block-5 bee-text">
+					<!--<div class="bee-block bee-block-5 bee-text">
 						<div class="bee-text-content" style="line-height: 180%; font-size: 12px; font-family: inherit; color: #656565;">
 							<p style="font-size: 14px; line-height: 25px; text-align: left;"><span style="font-size: 15px; line-height: 27px;"><a href="http://www.example.com" rel="noopener" style="text-decoration: none; color: #656565;" target="_blank">FAQ's</a></span></p>
 						</div>
-					</div>
+					</div>-->
 				</div>
 				<div class="bee-col bee-col-3 bee-col-w3">
 					<div class="bee-block bee-block-1 bee-text">
 						<div class="bee-text-content" style="line-height: 120%; font-size: 12px; font-family: inherit; color: #34495e;">
-							<p style="font-size: 16px; line-height: 19px; text-align: left;"><strong style="">Contact Info</strong></p>
+							<p style="font-size: 16px; line-height: 19px; text-align: left;"><strong style="">Informações de contato</strong></p>
 						</div>
 					</div>
 					<div class="bee-block bee-block-2 bee-text">
@@ -471,7 +503,7 @@
 				<div class="bee-col bee-col-4 bee-col-w3">
 					<div class="bee-block bee-block-1 bee-text">
 						<div class="bee-text-content" style="line-height: 120%; font-size: 12px; font-family: inherit; color: #34495e;">
-							<p style="font-size: 16px; line-height: 19px; text-align: left;"><strong style="">Follow Us</strong></p>
+							<p style="font-size: 16px; line-height: 19px; text-align: left;"><strong style="">Nos siga</strong></p>
 						</div>
 					</div>
 					<div class="bee-block bee-block-3 bee-social">
@@ -638,6 +670,15 @@ export default {
   .bee-form input[type=color]::-webkit-color-swatch {
     margin: 0;
     padding: 0
+  }
+
+  .bee-row-content.reverse,
+  .bee-row-content.reverse .bee-col {
+    -moz-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    -o-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1)
   }
 
   .bee-image img {
