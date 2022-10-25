@@ -2,10 +2,10 @@
     <div class="form-wrap">
      <form class="register">
       <p class="login-register">
-       Already have an account?
+      Já possui uma conta?
        <router-link class="router-link" :to="{ name: 'Login' }">Login</router-link>
       </p>
-      <h2>Create Your Clepy App Account</h2>
+      <h2>Crie sua conta</h2>
       <div class="inputs">
        <div class="input">
         <input type="text" placeholder="Seu nome" v-model="name">
@@ -29,7 +29,7 @@
        </div>
        <div v-show="error" class="error">{{ this.errorMsg }}</div>
       </div>
-      <button @click.prevent="register">Sign Up</button>
+      <button @click.prevent="register">Registrar</button>
       <div class="angle"></div>
      </form>
      <div class="background"></div>

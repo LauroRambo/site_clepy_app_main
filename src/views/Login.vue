@@ -2,10 +2,10 @@
     <div class="form-wrap">
      <form class="login">
       <p class="login-register">
-       Don't have an account?
-       <router-link class="router-link" :to="{ name: 'Register' }">Register</router-link>
+       Não possui uma conta?
+       <router-link class="router-link" :to="{ name: 'Register' }">Registre-se</router-link>
       </p>
-      <h2>Login to Clepy App</h2>
+      <h2>Seja bem vindo(a) ao mundo Clepy! Uma infinidade de possibilidades para facilitar a sua vida!</h2>
       <div class="inputs">
        <div class="input">
         <input type="text" placeholder="Email" v-model="email">
@@ -17,8 +17,8 @@
        </div>
        <div v-show="error" class="error">{{ this.errorMsg }}</div>
       </div>
-      <router-link class="forgot-password" :to="{ name: 'ForgotPassword'}">Forgot your password?</router-link>
-      <button @click.prevent="signIn">Sign In</button>
+      <router-link class="forgot-password" :to="{ name: 'ForgotPassword'}">Esqueceu sua senha?</router-link>
+      <button @click.prevent="signIn">Entrar</button>
       <div class="angle"></div>
      </form>
      <div class="background"></div>
@@ -169,7 +169,7 @@
       display: none;
       flex: 2;
       background-size: cover;
-      background-image: url("../assets/background.png");
+      background-image: url("../assets/09.-Arte-Clepy-Out.24-APV.jpg");
       width: 100%;
       height: 100%;
       @media (min-width: 900px) {
