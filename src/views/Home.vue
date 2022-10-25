@@ -477,7 +477,7 @@
 					</div>-->
 					<div class="bee-block bee-block-4 bee-text">
 						<div class="bee-text-content" style="line-height: 180%; font-size: 12px; font-family: inherit; color: #656565;">
-							<p style="font-size: 14px; line-height: 25px; text-align: left;"><span style="font-size: 15px; line-height: 27px;"><a href="http://www.example.com" rel="noopener" style="text-decoration: none; color: #656565;" target="_blank">Contact</a></span></p>
+							<p style="font-size: 14px; line-height: 25px; text-align: left;"><span style="font-size: 15px; line-height: 27px;"><a href="http://www.example.com" rel="noopener" style="text-decoration: none; color: #656565;" target="_blank">Contato</a></span></p>
 						</div>
 					</div>
 					<!--<div class="bee-block bee-block-5 bee-text">
@@ -494,9 +494,9 @@
 					</div>
 					<div class="bee-block bee-block-2 bee-text">
 						<div class="bee-text-content" style="line-height: 180%; font-size: 12px; font-family: inherit; color: #656565;">
-							<p style="font-size: 14px; line-height: 25px; text-align: left;"><span style="font-size: 15px; line-height: 27px;">UK (+23) 456 7890</span><br style="" /><span style="font-size: 15px; line-height: 27px;">US (+22) 456 7891</span></p>
+							<!--<p style="font-size: 14px; line-height: 25px; text-align: left;"><span style="font-size: 15px; line-height: 27px;">UK (+23) 456 7890</span><br style="" /><span style="font-size: 15px; line-height: 27px;">US (+22) 456 7891</span></p>-->
 							<p style="font-size: 14px; line-height: 25px; text-align: left;"></p>
-							<p style="font-size: 14px; line-height: 25px; text-align: left;"><span style="font-size: 15px; line-height: 27px;">support@domain.com</span><br style="" /><span style="font-size: 15px; line-height: 27px;">sales@domain.com</span></p>
+							<p style="font-size: 14px; line-height: 25px; text-align: left;"><span style="font-size: 15px; line-height: 27px;">contato@clepyapp.com</span><br style="" /></p>
 						</div>
 					</div>
 				</div>

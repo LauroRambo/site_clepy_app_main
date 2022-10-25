@@ -12,7 +12,7 @@
         <email class="icon" />
        </div>
        <div class="input">
-        <input type="password" placeholder="Password" v-model="password">
+        <input type="password" placeholder="Senha" v-model="password">
         <password class="icon" />
        </div>
        <div v-show="error" class="error">{{ this.errorMsg }}</div>

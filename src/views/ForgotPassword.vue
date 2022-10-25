@@ -5,18 +5,18 @@
         <div class="form-wrap">
             <form class="reset">
                 <p class="login-register">
-                    Back to
+                    Voltar para
                     <router-link class="router-link" :to="{ name: 'Login' }">Login</router-link>
                 </p>
-                <h2>Reset Password</h2>
-                <p>Forgot your password? Enter your email to reset it</p>
+                <h2>Resetar senha</h2>
+                <p>Esqueceu sua senha? Insira seu email para resetar</p>
                 <div class="inputs">
                     <div class="input">
                         <input type="text" placeholder="Email" v-model="email" />
                         <email class="icon" />
                     </div>
                 </div>
-                <button @click.prevent="resetPassword">Reset</button>
+                <button @click.prevent="resetPassword">Enviar</button>
                 <div class="angle"></div>
             </form>
             <div class="background"></div>

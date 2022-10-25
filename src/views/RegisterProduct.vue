@@ -11,11 +11,12 @@
     </div>
     <div class="input">
      <label for="productModel">Modelo do produto:</label>
-     <input type="text" id="productModel" v-model="productModel" />
+     <input type="textarea" id="productModel" v-model="productModel" />
     </div>
     <div class="input">
      <label for="productDescription">Descrição do produto:</label>
-     <input type="text" id="productDescription" v-model="productDescription" />
+     <textarea id="productDescription" v-model="productDescription" > </textarea>
+     <!--<input type="text" id="productDescription" v-model="productDescription" />-->
     </div>
     <div class="input">
      <label for="productValue">Valor do aluguel:</label>
@@ -226,15 +227,36 @@ export default {
     background-color: #f2f7f6;
     padding: 8px;
     height: 50px;
-    @media(min-width: 900px) {
+        @media(min-width: 900px) {
 
+        }
+
+        
+
+        &:focus {
+            outline: none;
+        }
+    }
+    textarea {
+    width: 100%;
+    border: none;
+    background-color: #f2f7f6;
+    padding: 8px;
+    height: 50px;
+        @media(min-width: 900px) {
+
+        }
+
+        
+
+        &:focus {
+            outline: none;
+        }
+    }
     }
 
-    &:focus {
-        outline: none;
-    }
-    }
-    }
+
+
 
     button {
     align-self: center;
