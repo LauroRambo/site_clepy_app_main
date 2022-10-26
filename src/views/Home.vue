@@ -19,8 +19,8 @@
 					<div class="bee-block bee-block-1 bee-menu">
 						<nav class="bee-menu"><input class="bee-hamburger-trigger" id="bee-hamburger-m221" type="checkbox" /><label class="bee-hamburger-controls" for="bee-hamburger-m221"><span class="bee-hamburger-open"></span><span class="bee-hamburger-close"></span></label>
 							<ul class="bee-horizontal with-bee-hamburger">
-								<li><a href="www.example.com" target="_self" title="">Home</a></li>
-								<li><a href="www.example.com" target="_self" title="">Download</a></li>
+								<li><a href="#" target="_self" title="">Home</a></li>
+								<li><a href="#" target="_self" title="">Download</a></li>
                 <li><router-link  v-if="user" class="link" :to="{name: 'AdminPanel'}">Painel</router-link></li>
 								<li><router-link  v-if="!user" class="link" :to="{name: 'Login'}">Login/Cadastre-se</router-link></li>
 							</ul>
@@ -70,7 +70,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-5">
+		<!--<div class="bee-row bee-row-5">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w12">
 					<div class="bee-block bee-block-1 bee-divider">
@@ -78,8 +78,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="bee-row bee-row-6">
+		</div>-->
+		<!--<div class="bee-row bee-row-6">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w2">
 					<div class="bee-block bee-block-1 bee-divider bee-mobile_hide">
@@ -106,8 +106,8 @@
 					<div class="bee-block bee-block-1 bee-image"><img alt="Alternate text" class="bee-center bee-autowidth" src="https://d1oco4z2z1fhwp.cloudfront.net/templates/default/2441/Logo_3.png" style="max-width:118px;" /></div>
 				</div>
 			</div>
-		</div>
-		<div class="bee-row bee-row-7">
+		</div>-->
+		<!--<div class="bee-row bee-row-7">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w12">
 					<div class="bee-block bee-block-1 bee-divider">
@@ -115,7 +115,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>-->
 		<div class="bee-row bee-row-8">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w6">
